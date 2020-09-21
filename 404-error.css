@@ -1,0 +1,176 @@
+*{
+	font-family: Roboto;
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0 0;
+}
+p{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.main-menu li a:hover{
+	color: #fe3e57;
+	font-weight: bold;
+}
+.main-menu{
+	display: flex;
+	justify-content: center;
+	align-items: center ;
+}
+.list-icon{
+	display: flex;
+	justify-content: flex-end;
+}
+.list-icon li a {
+	margin: 0 12.5px;
+}
+.main-menu li a{
+	color :  black;
+	display: block;
+	line-height: 16px;
+	padding: 0 20px;
+	font-family: Roboto;
+}
+.nav-main{
+	margin-top: 11px; 
+}
+.list-icon{
+	margin-top :  4px;
+}
+header{
+	padding-top:  40px;
+	height: 110px;
+	background: #f6f6f6;
+}
+
+
+.main img{
+	margin-top: 120px;
+}
+.main-content p:first-child{
+	margin-top: 270px;
+	margin-bottom: 35px;
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 48px;
+	color: #28384f;
+}
+.main-content .p2{
+	font-family: Quicksand;
+	font-size: 16px;
+	line-height: 26px;
+	color: #9d9d9d;
+	margin-bottom: 60px;
+}
+.main button{
+	height: 50px;
+	width: 180px;
+	color: white;
+	background: #fe3e57;
+	border: none;
+	box-shadow: 0 8px 16px 0 rgba(255,51,102,0.2), 0 6px 20px 0 rgba(255,51,102,0.19);
+}
+.main{
+	height: 790px;
+}
+
+
+footer{
+	background: #f6f6f6;
+	padding-top: 120px;
+}
+footer .row1 p{
+	font-size: 22px;
+	line-height: 22px;;
+}
+footer .row1{
+	margin-bottom: 18px;
+}
+footer .row2 .col1 p{
+	font-family: Quicksand; 
+	font-size: 16px;
+	line-height: 36px;
+	color: #9d9d9d;
+	margin-bottom: 0px;
+}
+footer .row2 .col2 p{
+	font-family: Quicksand; 
+	font-size: 16px;
+	line-height: 26px;
+	color: #9d9d9d;
+	margin-bottom: 0px;
+}
+footer .email-sub{
+	height: 50px;
+	margin-top: 30px;
+}
+footer input{
+	border: none;
+	width: 100%;
+	height: 50px;
+	padding: 0;
+	margin: 0;
+	padding-left: 15px;
+}
+footer .form-input{
+	padding-right: 10px;
+}
+footer .form-input input:focus{
+	outline: none;
+}
+footer .button-input button:focus{
+	outline: none;
+}
+footer .button-input{
+	/* padding-right: 0px; */
+	padding-left: 0px;
+}
+footer button{
+	background: #fe3e57;
+	border: none;
+	color: white;
+	width: 100%;
+	height: 50px;
+	padding: 0;
+	margin: 0;
+	box-shadow: 0 8px 16px 0 rgba(255,51,102,0.2), 0 6px 20px 0 rgba(255,51,102,0.19);
+}
+::placeholder{
+	font-size: 16px;
+	font-family: Quicksand;
+}
+.row2 .col1 ul{
+	display: flex;
+	justify-content: flex-start;
+	margin-top : 25px;
+	margin-bottom: 40px;
+}
+.row2 .col1 ul li{
+	padding-right: 20px;
+}
+footer .information{
+	border-bottom: 2px solid #ececec;
+}
+footer .content-copyright p{
+	font-size: 12px;
+	line-height: 12px;
+	font-family: Quicksand;
+	color: #9d9d9d;
+}
+footer .payment ul{
+	display: flex;
+	justify-content: flex-end;
+	margin-top: -5px;
+}
+footer .payment ul li{
+	padding-left: 20px;
+}
+footer .copyright{
+	margin-top: 30px;
+}

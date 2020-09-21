@@ -1,0 +1,55 @@
+.boxRegister{
+	padding: 0 300px;
+	font-family: quicksand Medium;
+	font-size: 16px;
+	color: #9c9c9c;
+	margin-bottom: 120px;
+}
+.boxRegister a{
+	text-decoration: none;
+}
+.title>p span{
+	font-family: Roboto ;
+	font-size: 22px;
+	line-height: 22px;
+	color: #9c9c9c;
+}
+.title>p span:hover{
+	color: #fe3e57;
+}
+.boxRegister .title{
+	margin-bottom: 40px;
+	text-align: center;
+}
+.boxRegister>p{
+	margin-bottom: 30px;
+}
+.accountIdRe input, .passwordRe input{
+	width: 100%;
+	background: #f6f6f6;
+	border: none;
+	height: 50px;
+	padding-left: 20px;
+	margin-bottom: 30px;
+}
+.accountIdRe p, .passwordRe p{
+	font-family: quicksand Medium;
+	font-size: 16px;
+	color: #9c9c9c;
+	margin-bottom: 10px;
+}
+.boxRegister button{
+	background: grey;
+	border: none;
+	color: white;
+	font-family: roboto;
+	width: 100%;
+	height: 50px;
+	margin: 20px 0;
+}
+.passwordRe span{
+	color: #fe6579;
+	font-family: quicksand Medium;
+	font-size: 14px;
+	padding-left: 10px;
+}

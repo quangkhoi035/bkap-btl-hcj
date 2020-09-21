@@ -1,0 +1,137 @@
+.sideBarRight>div{
+	margin-bottom: 40px;
+	border: 1px solid #ececec;
+	padding: 0 30px;
+}
+.search{
+	height: 177px;
+	display: flex;
+	flex-direction: column;
+}
+.search p, .latestPost>p, .category>p, .popularTags>p{
+	font-family: roboto regular;
+	font-size: 22px;
+	line-height: 22px;
+	font-weight: bold;
+	color: #29282d;
+	margin-top: 35px;
+}
+.searchBox{
+	display: flex;
+	height: 50px;
+	margin-top: 20px;
+}
+.searchBox input{
+	border: none;
+	background: #f6f6f6;
+	padding-left: 15px;
+	width: 260px;
+}
+#imgSearch{
+	border: none;
+	background: #fe3e57;
+	width: 50px;
+}
+.infoCEO{
+	height: 520px;
+	text-align: center;
+}
+.infoCEO>img{
+	margin: 40px 0;
+}
+.infoCEO p{
+	margin-bottom: 30px;
+}
+.infoCEO #nameCEO{
+	font-family: roboto;
+	font-size: 18px;
+	line-height: 26px;
+	font-weight: bold;
+	color: #29282d;
+	margin-bottom: 0px;
+}
+.infoCEO #jobtitle{
+	font-family: quicksand medium;
+	font-size: 16px;
+	line-height: 26px;
+	color: #fe6475;
+}
+.infoCEO ul{
+	display: flex;
+	justify-content: center;
+	padding: 0;
+}
+.infoCEO ul li{
+	padding-right: 20px;
+}
+.latestPost{
+	height: 580px;
+}
+.latestPostEle{
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid #ececec;
+	padding: 20px 0;
+}
+.latestPostEle:last-child{
+	border: none;
+}
+.latestPostEle>img{
+	height: 80px;
+}
+.titlePost{
+	margin-top: -3px;
+	margin-left: 20px;
+}
+.titlePost h4{
+	font-family: roboto;
+	font-size: 18px;
+	line-height: 28px;
+	margin-bottom: 0;
+}
+.titlePost p{
+	font-family: roboto;
+	font-size: 16px;
+	line-height: 28px;
+	margin-bottom: 0;
+	color: #8d8d8d;
+}
+.boxCate{
+	margin: 35px 0 40px 0;
+}
+.detailsCate{
+	height: 50px;
+	background: #f6f6f6;
+	padding: 0 20px;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 15px;
+}
+.detailsCate p, tagsEle p{
+	font-family: quicksand medium;
+	font-size: 16px;
+	line-height: 28px;
+	padding-top: 12px;
+}
+.detailsCate:hover{
+	background: #fe3e57;	
+	color: #ffffff;
+}
+.tagsEle{
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 35px;
+}
+.tagsEle p{
+	padding: 7px 20px;
+	border: 1px solid #8d8d8d;
+	margin-right: 15px;
+	color: #8d8d8d;
+	margin-top: 20px;
+	height: 40px;
+}
+.tagsEle p:hover{
+	background: #fe3e57;	
+	color: #ffffff;
+	border: 1px solid #fe3e57;
+}

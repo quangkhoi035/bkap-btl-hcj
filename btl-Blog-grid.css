@@ -1,0 +1,140 @@
+*{
+	box-sizing: border-box;
+}
+img{
+	max-width: 100%;
+	max-height: 100%;
+}
+video{
+	max-width: 100%;
+	height: auto;
+}
+ul{
+	list-style-type: none;
+}
+p{
+	margin-bottom: 0;
+}
+header .start{
+	text-align: left;
+	padding: 40px 15px;
+}
+header .mid{
+	height: 110px;
+	padding: 40px 15px;
+}
+header .mid ul{
+	display: flex;
+	padding: 0;
+	margin: 0;
+	justify-content: center;
+	align-items: center;
+}
+header .mid ul li{
+	padding: 5px 2.5px 2.5px 2.5px;
+	margin: 0 17.5px;
+	font-family: roboto regular;
+	font-size: 16px;
+	color: #29282d;
+}
+header .mid ul li:hover{
+	font-weight: bold;
+	color: #fe3e57;
+	border-bottom: 1px solid #fe3e57;
+}
+header .end{
+	padding: 40px 15px;
+}
+header .end ul{
+	display: flex;
+	padding: 0;
+	margin: 0;
+	justify-content: flex-end;
+	align-items: center;
+}
+header .end ul li{
+	margin-left: 18px;
+}
+.banner{
+	margin-bottom: 120px;
+}
+.bannerContent{
+	background: url('image/Blohg-main/Image_here.png');
+	height: 357px;	
+	text-align: center;
+	padding-top: 136px;
+}
+.bannerContent h3{
+	font-family: Roboto Regular;
+	font-size: 48px;
+	line-height: 48px;
+	color: #15181d;
+	margin-bottom: 30px;
+}
+.bannerContent p{
+	font-family: quicksand;
+	font-size: 16px;
+	line-height: 16px;
+	color: #828282;
+	margin-bottom: 0;
+}
+.bannerContent img{
+	margin-top: -8px;
+}
+#miniArrow{
+	margin-top: -2px; 
+}
+.bannerContent p span{
+	color: #fd4a61;
+}
+main .container, header .container{
+	padding: 0;
+	max-width: 1170px;
+}	
+.eleBlog{
+	margin-bottom: 60px;
+	padding: 0;
+	border: 1px solid #ececec;
+}
+.eleBlog:hover{
+	border: 1px solid none;
+	box-shadow: 15px 15px 15px #f2f2f2;
+}
+.imgBlog-Blog{
+/* 	width: 370px;
+	height: 286.4px; */
+	margin-bottom: 30px;
+}
+.note-Blog{
+	line-height: 16px;
+	font-size: 16px;
+	font-family: quicksand;
+	color: #8d8d8d;
+	padding-left: 40px;
+}
+.note-Blog img{
+	margin-top: -7px;
+}
+.note-Blog p{
+	margin-bottom: 16px;
+}
+.eleBlog h3{
+	font-size: 22px;
+	font-family: roboto;
+	line-height: 32px;
+	margin-bottom: 20px;
+	padding: 0 40px;
+}
+.eleBlog a{
+	text-decoration: none;
+	padding-left: 40px;
+	font-family: Quicksand Medium;
+	font-size: 16px;
+	line-height: 26px;
+	color: #29282d;
+	display: block;
+	margin-bottom: 25px;
+}
+.eleBlog a:hover{
+	color: red;
+}

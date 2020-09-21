@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Shop-page-grid-view</title>
+	<script src="jquery.js"></script>
+	<script src="distribute/nouislider.js"></script>
+	<script src="wnumb-1.2.0/wNumb.min.js"></script>
+	<script src="jquery-main.js"></script>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="distribute/nouislider.min.css">
+	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pretty-checkbox@3.0/dist/pretty-checkbox.min.css">
+	<link rel="stylesheet" href="https://cdn.materialdesignicons.com/5.3.45/css/materialdesignicons.min.css">
+	<link rel="stylesheet" href="style.css">
+	
+	
+</head>
+<body>
+	<header>
+		<div class="container">
+				<div class="row">
+					<div class="col-xl-3">
+						<div class="logo">
+							<img src="imgs/logo.png" onclick="location.href = 'home-page.html'" alt="">
+						</div>
+					</div>
+					<div class="col-xl-6">
+						<nav class = "nav-main">
+							<ul class="main-menu">
+								<li><a href="home-page.html">HOME</a></li>
+								<li><a href="shop-List-with-left-sidebar.html">SHOP</a></li>
+								<li><a href="shop-page.html">PAGE</a></li>
+								<li><a href="btl-Blog-Standard.html">BLOG</a></li>
+								<li><a href="contact-us.html">CONTACT</a></li>
+							</ul>
+
+						</nav>
+					</div>
+					<div class="col-xl-3">
+						<div>
+							<ul  class="list-icon">
+								<li><a href="btl-Login.html"> <img src="icons/user.png" alt=""></a></li>
+								<li><a href=""><img src="icons/search.png" alt=""></a></li>
+								<li><a href=""><img src="icons/heart_icon.png" alt=""></a></li>
+								<li><a href="cart.html"><img src="icons/cart_icon.png" alt=""></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+	</header>
+	<div class="banner">
+			<div class="title-menu">
+				<p> SHOP PAGE</p>
+					<ul>
+						<li><img src="icons/home_icon.png" alt=""></li>
+						<li class="home"><a href="">Home</a></li>
+						<li><img src="icons/angle_right.png" alt=""></li>
+						<li><a href="">Shop page</a></li>
+					</ul>
+			</div>
+	</div>		
+
+	<div class="container">
+		<div class="row">
+			<div class="col-xl-4 side-bar">
+				<div class="search">
+					<div class="content">
+						<p class="upcase-text">SEARCH</p>
+						<div class="search-box">
+							<input type="search" placeholder="&nbsp &nbsp Search your keyword...">
+							<button class="icon"><i class="fa fa-search" aria-hidden="true"></i></button>
+						</div>
+					</div>
+				</div>
+				<div class="price-filter">
+					<div class="content">
+						<p class="upcase-text">PRICE FILTER</p>
+						<div id="slider"></div>
+						<script type="text/javascript" src="jquery-main.js"></script>
+						<div class="filter">
+							<p>Price: $0 - $999</p> 
+							<button>FILTER</button>
+						</div>
+					</div>
+				</div>
+				<div class="color-filter">
+					<div class="content">
+						<p class="upcase-text">COLOR FILTER</p>
+						<ul>
+							<li>
+								<p>Blue (15)</p>
+								<img src="icons/blue.png" alt="">
+							</li>
+							<li>
+								<p>Red (09)</p>
+								<img src="icons/Red.png" alt="">
+							</li>
+							<li>
+								<p>Green (28)</p>
+								<img src="icons/green.png" alt="">
+							</li>
+							<li>
+								<p>Orange (11)</p>
+								<img src="icons/orange.png" alt="">
+							</li>
+							<li>
+								<p>Black (05)</p>
+								<img src="icons/black.png" alt="">
+							</li>
+							<li>
+								<p>Purple (21) </p>
+								<img src="icons/purple.png" alt="">
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="size-filter">
+					<div class="content">
+						<p class="upcase-text">SIZE FILTER</p>
+						<ul>
+							<li>
+								<div class="pretty p-icon p-round">
+        							<input type="checkbox" />
+        							<div class="state">
+            							   <i class="icon mdi mdi-check"></i>
+            							<label> &nbsp X-small</label>
+        							</div>
+    							</div>
+							</li>
+							<li>
+								<div class="pretty p-icon p-round">
+        							<input type="checkbox" />
+        							<div class="state">
+            							 <i class="icon mdi mdi-check"></i>
+            							<label>&nbsp Small</label>
+        							</div>
+    							</div>
+								
+							</li>
+							<li>
+								<div class="pretty p-icon p-round">
+        							<input type="checkbox" />
+        							<div class="state">
+            							 <i class="icon mdi mdi-check"></i>
+            							<label>&nbsp Medium</label>
+        							</div>
+    							</div>
+							</li>
+							<li>
+								<div class="pretty p-icon p-round">
+        							<input type="checkbox" />
+        							<div class="state">
+            							 <i class="icon mdi mdi-check"></i>
+            							<label>&nbsp Large</label>
+        							</div>
+    							</div>
+							</li>
+							<li>
+								<div class="pretty p-icon p-round">
+        							<input type="checkbox" />
+        							<div class="state">
+            							 <i class="icon mdi mdi-check"></i>
+            							<label>&nbsp XLL</label>
+        							</div>
+    							</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="category">
+					<div class="content">
+						<p class="upcase-text">CATEGORY</p>
+						<ul>
+							<li>								
+									<p>Woman</p>
+									<p>48</p>
+							</li>
+							<li>								
+									<p>Man</p>
+									<p>30</p>								
+							</li>
+							<li>								
+									<p>Sale Product</p>
+									<p>92</p>								
+							</li>
+							<li>
+									<p>Fashion</p>
+									<p>121</p>
+							</li>
+							<li>
+									<p>Hot Dressed</p>
+									<p>52</p>
+							</li>
+							<li>
+									<p>Accessories</p>
+									<p>88</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="popular-tags">
+					<div class="content">
+						<p class="upcase-text">Popular tags</p>
+						<div class="behind-box">
+							<p>Sweetshirt</p>
+							<p>Man accessary</p>
+							<p>Fasshion</p>
+							<p>Polo</p>
+							<p>T-shirt</p>
+							<p>Jewellery</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-8 post">
+				<div class="top-menu">
+					<div class="row">
+						<div class="col-xl-6 top-menu-left">
+							<ul>
+								<li><p>View</p></li>
+								<li><i class="fa fa-th" aria-hidden="true"></i></li>
+								<li><i class="fa fa-th-list" aria-hidden="true"></i></li>
+							</ul>
+						</div>
+						<div class="col-xl-6 top-menu-right">
+							<ul>
+								<li><p>Sort By Default</p></li>
+								<li ><img src="icons/angle down.png" alt=""></li>
+								<li><p>Show</p></li>
+								<li><img src="icons/angle down.png" alt=""></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="row product">
+					<div class="col-xl-6">
+						<div class="product-item">
+							<img src="imgs/item_07.jpg" alt="">
+							<div class="star">
+								<span class="fa fa-star"></span>
+								<span class="fa fa-star"></span>
+								<span class="fa fa-star"></span>
+								<span class="fa fa-star"></span>
+								<span class="fa fa-star checked"></span>
+							</div>
+							<p>White Polo Men's T-shirt </p>
+							<p class="price">$34.00</p>
+							<p class="sale">SALE</p>
+							<div class="options">
+								<i class="fa fa-search" onclick="location.href='shop-detail.html'"></i>
+								<i class="fa fa-shopping-bag" aria-hidden="true"></i>
+								<i class="fa fa-heart-o" aria-hidden="true"></i>
+							</div>
+						</div>
+						<div class="product-item">
+							<img src="imgs/item_07.jpg" alt="">
+							<div class="star">
+								<span class="fa fa-star"></span>
+								<span class="fa fa-star"></span>
+								<span class="fa fa-star"></span>
+								<span class="fa fa-star"></span>
+								<span class="fa fa-star checked"></span>
+							</div>
+							<p>White Polo Men's T-shirt </p>
+							<p class="price">$34.00</p>
+							<div class="options">
+								<i class="fa fa-search" onclick="location.href='shop-detail.html'"></i>
+								<i class="fa fa-shopping-bag" aria-hidden="true"></i>
+								<i class="fa fa-heart-o" aria-hidden="true"></i>
+							</div>
+						</div>
+						<div class="product-item">
+							<img src="imgs/item_07.jpg" alt="">
+							<div class="star">
+								<span class="fa fa-star"></span>
+								<span class="fa fa-star"></span>
+								<span class="fa fa-star"></span>
+								<span class="fa fa-star"></span>
+								<span class="fa fa-star checked"></span>
+							</div>
+							<p>White Polo Men's T-shirt </p>
+							<p class="price">$34.00</p>
+							<p class="sale">SALE</p>
+							<div class="options">
+								<i class="fa fa-search" onclick="location.href='shop-detail.html'"></i>
+								<i class="fa fa-shopping-bag" aria-hidden="true"></i>
+								<i class="fa fa-heart-o" aria-hidden="true"></i>
+							</div>
+						</div>
+						<div class="product-item">
+							<img src="imgs/item_07.jpg" alt="">
+							<div class="star">
+								<span class="fa fa-star"></span>
+								<span class="fa fa-star"></span>
+								<span class="fa fa-star"></span>
+								<span class="fa fa-star"></span>
+								<span class="fa fa-star checked"></span>
+							</div>
+							<p>White Polo Men's T-shirt </p>
+							<p class="price">$34.00</p>
+							<div class="options">
+								<i class="fa fa-search" onclick="location.href='shop-detail.html'"></i>
+								<i class="fa fa-shopping-bag" aria-hidden="true"></i>
+								<i class="fa fa-heart-o" aria-hidden="true"></i>
+							</div>
+						</div>
+						<div class="product-item">
+							<img src="imgs/item_07.jpg" alt="">
+							<div class="star">
+								<span class="fa fa-star"></span>
+								<span class="fa fa-star"></span>
+								<span class="fa fa-star"></span>
+								<span class="fa fa-star"></span>
+								<span class="fa fa-star checked"></span>
+							</div>
+							<p>White Polo Men's T-shirt </p>
+							<p class="price">$34.00</p>
+							<div class="options">
+								<i class="fa fa-search" onclick="location.href='shop-detail.html'"></i>
+								<i class="fa fa-shopping-bag" aria-hidden="true"></i>
+								<i class="fa fa-heart-o" aria-hidden="true"></i>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-6">
+						<div class="product-item">
+							<img src="imgs/item_07.jpg" alt="">
+							<div class="star">
+								<span class="fa fa-star"></span>
+								<span class="fa fa-star"></span>
+								<span class="fa fa-star"></span>
+								<span class="fa fa-star"></span>
+								<span class="fa fa-star checked"></span>
+							</div>
+							<p>White Polo Men's T-shirt </p>
+							<p class="price">$34.00</p>
+							<div class="options">
+								<i class="fa fa-search" onclick="location.href='shop-detail.html'"></i>
+								<i class="fa fa-shopping-bag" aria-hidden="true"></i>
+								<i class="fa fa-heart-o" aria-hidden="true"></i>
+							</div>
+						</div>
+						<div class="product-item">
+							<img src="imgs/item_07.jpg" alt="">
+							<div class="star">
+								<span class="fa fa-star" ></span>
+								<span class="fa fa-star"></span>
+								<span class="fa fa-star"></span>
+								<span class="fa fa-star"></span>
+								<span class="fa fa-star checked"></span>
+							</div>
+							<p>White Polo Men's T-shirt </p>
+							<p class="price">$34.00</p>
+							<p class="sale">SALE</p>
+							<div class="options">
+								<i class="fa fa-search" onclick="location.href='shop-detail.html'"></i>
+								<i class="fa fa-shopping-bag" aria-hidden="true"></i>
+								<i class="fa fa-heart-o" aria-hidden="true"></i>
+							</div>
+						</div>
+						<div class="product-item">
+							<img src="imgs/item_07.jpg" alt="">
+							<div class="star">
+								<span class="fa fa-star"></span>
+								<span class="fa fa-star"></span>
+								<span class="fa fa-star"></span>
+								<span class="fa fa-star"></span>
+								<span class="fa fa-star checked"></span>
+							</div>
+							<p>White Polo Men's T-shirt </p>
+							<p class="price">$34.00</p>
+							<div class="options">
+								<i class="fa fa-search" onclick="location.href='shop-detail.html'"></i>
+								<i class="fa fa-shopping-bag" aria-hidden="true"></i>
+								<i class="fa fa-heart-o" aria-hidden="true"></i>
+							</div>
+						</div>
+						<div class="product-item">
+							<img src="imgs/item_07.jpg" alt="">
+							<div class="star">
+								<span class="fa fa-star"></span>
+								<span class="fa fa-star"></span>
+								<span class="fa fa-star"></span>
+								<span class="fa fa-star"></span>
+								<span class="fa fa-star checked"></span>
+							</div>
+							<p>White Polo Men's T-shirt </p>
+							<p class="price">$34.00</p>
+							<p class="sale">SALE</p>
+							<div class="options">
+								<i class="fa fa-search" onclick="location.href='shop-detail.html'"></i>
+								<i class="fa fa-shopping-bag" aria-hidden="true"></i>
+								<i class="fa fa-heart-o" aria-hidden="true"></i>
+							</div>
+						</div>
+						<div class="product-item">
+							<img src="imgs/item_07.jpg" alt="">
+							<div class="star">
+								<span class="fa fa-star"></span>
+								<span class="fa fa-star"></span>
+								<span class="fa fa-star"></span>
+								<span class="fa fa-star"></span>
+								<span class="fa fa-star checked"></span>
+							</div>
+							<p>White Polo Men's T-shirt </p>
+							<p class="price">$34.00</p>
+							<p class="sale">SALE</p>
+							<div class="options">
+								<i class="fa fa-search" onclick="location.href='shop-detail.html'"></i>
+								<i class="fa fa-shopping-bag" aria-hidden="true"></i>
+								<i class="fa fa-heart-o" aria-hidden="true"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="pages">
+					<nav aria-label="">
+  						<ul class="pagination">
+    						<li class="page-item"><a class="page-link" href="#">< PREVIOUS</a></li>
+    						<li class="page-item"><a class="page-link" href="#">1</a></li>
+    						<li class="page-item"><a class="page-link" href="#">2</a></li>
+    						<li class="page-item"><a class="page-link" href="#">3</a></li>
+    						<li class="page-item"><a class="page-link" href="#">...</a></li>
+    						<li class="page-item"><a class="page-link" href="#">10</a></li>
+    						<li class="page-item"><a class="page-link" href="#">NEXT ></a></li>
+  						</ul>
+					</nav>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+
+	<div>
+		
+	</div>
+
+	<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-3 content1">
+						<img src="image/footer/Vector Smart Object.png" alt="" onclick="location.href='home-page.html'">
+						<p>No.342 - London Oxford Street,</p>
+						<p>012 United States</p>
+						<p>Youremail@gmail.com</p>
+						<p>+0283 838 8393</p>
+						<ul>
+							<li><img src="image/footer/1.png" alt=""></li>
+							<li><img src="image/footer/2.png" alt=""></li>
+							<li><img src="image/footer/3.png" alt=""></li>
+							<li><img src="image/footer/4.png" alt=""></li>
+							<li><img src="image/footer/5.png" alt=""></li>
+						</ul>
+					</div>
+					<div class="col-xl-2 content2">
+						<h3>Useful link</h3>
+						<ul>
+							<li>About us</li>
+							<li>Privacy Policy</li>
+							<li>Terms & Conditions</li>
+							<li onclick="location.href='contact-us.html'">Contact us</li>
+							<li>Help & Support</li>
+						</ul>
+					</div>
+					<div class="col-xl-2 content3">
+						<h3>My Account</h3>
+						<ul>
+							<li>My Account</li>
+							<li onclick="location.href='cart.html'">My Cart</li>
+							<li>My Wlshlish</li>
+							<li onclick="location.href='btl-Register.html'">Registration</li>
+							<li onclick="location.href='btl-Check-Out.html'">Check Out</li>
+						</ul>
+					</div>
+					<div class="col-xl-5 content4">
+						<h3>Subscribe Our Newsletter</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur ad	ipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+						<div class="row">
+							<div class="col-xl-8">
+								<input type="text" placeholder="Your email address">
+							</div>
+							<div class="col-xl-4">
+								<button>SUBSCRIBE</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="noteFooter">
+					<div class="row">
+						<div class="col-xl-6">
+							<p>© 2019 CodeAstrology. All Rights Reserved</p>
+						</div>
+						<div class="col-xl-6 paymentIcon">
+							<ul>
+								<li>We Accept</li>
+								<li><img src="image/footer/master card.png" alt=""></li>
+								<li><img src="image/footer/visa.png" alt=""></li>
+								<li><img src="image/footer/paypal.png" alt=""></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+</body>
+</html>
